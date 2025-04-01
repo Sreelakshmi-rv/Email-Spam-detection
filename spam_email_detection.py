@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1MW8g_KNQsxULc5a0_Zhnx7TTEaUzRMF0
 """
 
-!pip install streamlit scikit-learn pandas pyngrok
+
 
 #import necessary libraries
 import pandas as pd
