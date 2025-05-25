@@ -12,20 +12,20 @@ Ideal for learning how spam filters work and how text classification can be appl
 ## Overview
 
 This is a classic binary classification task. The dataset contains labeled emails marked as spam or not, and the model is trained to predict the correct label using:
--Text cleaning & preprocessing
--TF-IDF vectorization
--Naive Bayes classification
+- Text cleaning & preprocessing
+- TF-IDF vectorization
+- Naive Bayes classification
 It's a simple yet effective machine learning pipeline that gives solid results and demonstrates the core ideas behind spam filtering systems.
 
 
 
 ## Features
 
--🧹 Cleans and preprocesses raw email data
--📊 Converts email text into numerical features using TF-IDF
--🤖 Trains a Naive Bayes classifier to detect spam
--📈 Evaluates performance using accuracy, precision, recall, and F1-score
--🧪 Test set prediction and confusion matrix analysis
+-  Cleans and preprocesses raw email data
+-  Converts email text into numerical features using TF-IDF
+-  Trains a Naive Bayes classifier to detect spam
+-  Evaluates performance using accuracy, precision, recall, and F1-score
+-  Test set prediction and confusion matrix analysis
 
 
 
@@ -62,10 +62,10 @@ pip install -r requirements.txt
 
 ## Model Info
 
--Text Preprocessing: Lowercasing, punctuation removal, stopword removal, stemming.
--Vectorization: TF-IDF (Term Frequency–Inverse Document Frequency).
--Classifier: Multinomial Naive Bayes (ideal for text classification tasks).
--Evaluation: Accuracy, Precision, Recall, F1 Score, Confusion Matrix.
+- Text Preprocessing: Lowercasing, punctuation removal, stopword removal, stemming.
+- Vectorization: TF-IDF (Term Frequency–Inverse Document Frequency).
+- Classifier: Multinomial Naive Bayes (ideal for text classification tasks).
+- Evaluation: Accuracy, Precision, Recall, F1 Score, Confusion Matrix.
 
 ## Sample Results
 
@@ -79,15 +79,15 @@ pip install -r requirements.txt
 
 ## Future Improvements
 
--Add support for additional classifiers (e.g., Logistic Regression, SVM)
--Deploy the model using Streamlit for live predictions
--Use advanced NLP techniques (e.g., word embeddings, LSTM)
--Integrate with email clients for real-time spam filtering
+- Add support for additional classifiers (e.g., Logistic Regression, SVM)
+- Deploy the model using Streamlit for live predictions
+- Use advanced NLP techniques (e.g., word embeddings, LSTM)
+- Integrate with email clients for real-time spam filtering
 
 
 
 ## 🙌 Acknowledgments
 
--Dataset from Kaggle's Email Spam Classification dataset
--Inspired by real-world spam filtering systems
--Built as a portfolio project @ Digital University Kerala 🎓
+- Dataset from Kaggle's Email Spam Classification dataset
+- Inspired by real-world spam filtering systems
+- Built as a portfolio project @ Digital University Kerala 🎓
