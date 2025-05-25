@@ -7,7 +7,6 @@ This project classifies emails as spam or ham (not spam) using a supervised lear
 
 Ideal for learning how spam filters work and how text classification can be applied to real-world problems.
 
----
 
 
 ## Overview
